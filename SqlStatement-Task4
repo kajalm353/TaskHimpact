@@ -1,0 +1,5 @@
+// Below is the SQL Statement for Task-4,The list of Customer Details.
+
+let customerDetails = "SELECT Cust_Name From Customer INNER JOIN Salesman ON Customer.Salesman_id = Salesman.Salesman_id Where Salesman.Commission < 0.12"
+
+// This Query will return the customer names whose Commission from the company is more than 12%.
